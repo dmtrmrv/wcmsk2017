@@ -34,8 +34,9 @@
 			font-size: 21px;
 		}
 	}
-	a {
+	a:not(.button) {
 		color: #fff;
+		text-decoration: underline;
 	}
 }
 

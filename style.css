@@ -1404,8 +1404,12 @@ body.admin-bar #tix {
 	line-height: 1.1;
 }
 
-.wcm-hero a {
+.wcm-hero a:not(.button):not(button):not(
+  input[type='button']):not(
+  input[type='reset']):not(
+  input[type='submit']) {
 	color: #fff;
+	text-decoration: underline;
 }
 
 .wcm-why {
@@ -1579,6 +1583,7 @@ body.admin-bar #tix {
 	}
 
 	.lead {
+		margin-bottom: 1.5rem;
 		font-size: 21px;
 	}
 
