@@ -44,3 +44,9 @@
 		}
 	}
 }
+
+.lead {
+	@media screen and( min-width: $sm ) {
+		font-size: 21px;
+	}
+}

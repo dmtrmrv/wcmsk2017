@@ -1578,6 +1578,10 @@ body.admin-bar #tix {
 		max-width: 600px;
 	}
 
+	.lead {
+		font-size: 21px;
+	}
+
 	.site {
 		padding: 0 3em;
 	}
