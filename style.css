@@ -1438,7 +1438,7 @@ body.admin-bar #tix {
 	width: 100%;
 }
 
-.wcm-sponsor.empty {
+.wcm-sponsor.wcm-sponsor-empty {
 	display: none;
 }
 
@@ -1671,7 +1671,7 @@ body.admin-bar #tix {
 		margin-bottom: 4rem;
 	}
 
-	.wcm-sponsor.empty {
+	.wcm-sponsor.wcm-sponsor-empty {
 		display: block;
 	}
 
