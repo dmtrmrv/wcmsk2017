@@ -1,0 +1,122 @@
+/**
+ * Schedule Special Styles
+ */
+.wcpt-schedule {
+	td,
+	th {
+		vertical-align: top;
+		@media screen and ( min-width: $sm ) {
+			padding: 1.5em;
+		}
+	}
+}
+
+.wcpt-track-description {
+	display: none;
+}
+
+.wcpt-track-name {
+	@include font-size( 1 );
+	margin-bottom: 0;
+	font-weight: 700;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+}
+
+.wcpt-session-title,
+.wcpt-session-speakers {
+	display: block;
+}
+
+.global-session {
+	td {
+		background-color: $color__text-lighter;
+	}
+	.wcpt-session-title {
+		color: $color__text-secondary;
+		font-weight: normal;
+	}
+}
+
+.wcpt-session-title {
+	font-weight: bold;
+}
+
+.wcpt-session-speakers {
+	color: $color__text-secondary;
+}
+
+
+
+.wcpt-session-type-session:after {
+	display: block;
+	float: left;
+	margin-top: 0.5em;
+	padding: 2px 0.75em 3px;
+	border: 2px solid;
+	border-radius: 1em;
+	font-size: 0.75em;
+	font-weight: 700;
+}
+
+.wcb-session-nick-yurov,
+.wcb-session-nikolay-mironov,
+.wcb-session-sergey-biryukov {
+	&:after {
+		border-color: #3dceff;
+		content: 'Разработка для новичков';
+	}
+}
+
+.wcb-session-gennady-kovshenin,
+.wcb-session-konstantin-kovshenin,
+.wcb-session-nikolay-korobochkin,
+.wcb-session-aleksandr-stankevic {
+	&:after {
+		border-color: #2980b9;
+		content: 'Разработка для опытных';
+	}
+}
+
+.wcb-session-pavel-karpov {
+	&:after {
+		border-color: #eb7f00;
+		content: 'SEO';
+	}
+}
+
+.wcb-session-sergey-simonyan,
+.wcb-session-misha-rudrastyh {
+	&:after {
+		border-color: #f5ea54;
+		content: 'Контент';
+	}
+}
+
+.wcb-session-varvara-lyalyagina,
+.wcb-session-igor-filimonov {
+	&:after {
+		border-color: #a9cf54;
+		content: 'Бизнес';
+	}
+}
+
+.wcb-session-dmitry-mayorov {
+	&:after {
+		border-color: #e74c3c;
+		content: 'Дизайн и разработка';
+	}
+}
+
+.wcb-session-yevhen-kotelnytskyi {
+	&:after {
+		content: 'Управление проектами';
+	}
+}
+
+.wcb-session-aleksandr-stankevic {
+	&:after {
+		border-color: #b8ae9c;
+		content: 'Администрирование';
+	}
+}
