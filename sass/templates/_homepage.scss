@@ -39,12 +39,21 @@
 	}
 }
 
+.wcm-why {
+	background-color: $color__text-lighter;
+	padding: 7.5% 0;
+	padding: 7.5% 0 calc( 7.5% - 1.5em );
+}
+
 // Sponsors.
 .wcm-sponsors {
 	padding: 7.5% 0;
 	padding: 7.5% 0 calc( 7.5% - 1.5em );
 	h2 {
-		margin-bottom: 1.25em;
+		margin-bottom: 1.5rem;
+		@media screen and( min-width: $sm ) {
+			margin-bottom: 4rem;
+		}
 	}
 }
 

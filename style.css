@@ -1408,13 +1408,19 @@ body.admin-bar #tix {
 	color: #fff;
 }
 
+.wcm-why {
+	padding: 7.5% 0;
+	padding: 7.5% 0 calc( 7.5% - 1.5em);
+	background-color: rgba(88, 88, 88, 0.05);
+}
+
 .wcm-sponsors {
 	padding: 7.5% 0;
 	padding: 7.5% 0 calc( 7.5% - 1.5em);
 }
 
 .wcm-sponsors h2 {
-	margin-bottom: 1.25em;
+	margin-bottom: 1.5rem;
 }
 
 .wcm-sponsor {
@@ -1655,6 +1661,10 @@ body.admin-bar #tix {
 
 	.wcm-hero p {
 		font-size: 21px;
+	}
+
+	.wcm-sponsors h2 {
+		margin-bottom: 4rem;
 	}
 
 	.wcm-sponsor.empty {
