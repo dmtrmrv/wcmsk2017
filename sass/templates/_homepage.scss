@@ -74,7 +74,6 @@
 	margin-bottom: 1em;
 	img {
 		display: block;
-		border-radius: 50%;
 	}
 	a {
 		display: block;
@@ -84,11 +83,11 @@
 .wcm-speaker-name {
 	margin-bottom: 0;
 	font-weight: bold;
-	text-align: center;
+	margin-top: 0;
 }
 
 .wcm-speaker-sub {
-	text-align: center;
+
 }
 
 // Sponsors.

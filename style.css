@@ -1442,7 +1442,6 @@ body.admin-bar #tix {
 
 .wcm-speaker-img img {
 	display: block;
-	border-radius: 50%;
 }
 
 .wcm-speaker-img a {
@@ -1450,13 +1449,9 @@ body.admin-bar #tix {
 }
 
 .wcm-speaker-name {
+	margin-top: 0;
 	margin-bottom: 0;
 	font-weight: bold;
-	text-align: center;
-}
-
-.wcm-speaker-sub {
-	text-align: center;
 }
 
 .wcm-sponsors {
