@@ -1419,7 +1419,6 @@ body.admin-bar #tix {
 }
 
 .wcm-speakers {
-	display: none !important;
 	padding: 7.5% 0;
 	padding: 7.5% 0 calc( 7.5% - 1.5em);
 }
