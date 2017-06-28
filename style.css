@@ -1436,9 +1436,27 @@ body.admin-bar #tix {
 	margin-right: 0;
 }
 
+.wcm-speaker-img {
+	margin-bottom: 1em;
+}
+
+.wcm-speaker-img img {
+	display: block;
+	border-radius: 50%;
+}
+
 .wcm-speaker-img a {
 	display: block;
-	margin-bottom: 1.5em;
+}
+
+.wcm-speaker-name {
+	margin-bottom: 0;
+	font-weight: bold;
+	text-align: center;
+}
+
+.wcm-speaker-sub {
+	text-align: center;
 }
 
 .wcm-sponsors {

@@ -41,9 +41,9 @@
 }
 
 .wcm-why {
-	background-color: $color__text-lighter;
 	padding: 7.5% 0;
 	padding: 7.5% 0 calc( 7.5% - 1.5em );
+	background-color: $color__text-lighter;
 }
 
 // Speakers.
@@ -71,10 +71,24 @@
 }
 
 .wcm-speaker-img {
+	margin-bottom: 1em;
+	img {
+		display: block;
+		border-radius: 50%;
+	}
 	a {
 		display: block;
-		margin-bottom: 1.5em;
 	}
+}
+
+.wcm-speaker-name {
+	margin-bottom: 0;
+	font-weight: bold;
+	text-align: center;
+}
+
+.wcm-speaker-sub {
+	text-align: center;
 }
 
 // Sponsors.
