@@ -1272,17 +1272,12 @@ body.admin-bar #tix {
 
 .wcb-session-nick-yurov:after,
 .wcb-session-nikolay-mironov:after,
-.wcb-session-sergey-biryukov:after {
-	border-color: #3dceff;
-	content: 'Разработка для новичков';
-}
-
+.wcb-session-sergey-biryukov:after,
 .wcb-session-gennady-kovshenin:after,
 .wcb-session-konstantin-kovshenin:after,
-.wcb-session-nikolay-korobochkin:after,
-.wcb-session-aleksandr-stankevic:after {
-	border-color: #2980b9;
-	content: 'Разработка для опытных';
+.wcb-session-nikolay-korobochkin:after {
+	border-color: #3dceff;
+	content: 'Разработка';
 }
 
 .wcb-session-pavel-karpov:after {
@@ -1290,30 +1285,24 @@ body.admin-bar #tix {
 	content: 'SEO';
 }
 
-.wcb-session-sergey-simonyan:after,
-.wcb-session-misha-rudrastyh:after {
+.wcb-session-ruslan-sukhar:after {
 	border-color: #f5ea54;
 	content: 'Контент';
 }
 
-.wcb-session-varvara-lyalyagina:after,
-.wcb-session-igor-filimonov:after {
+.wcb-speaker-evgeny-karsky:after {
 	border-color: #a9cf54;
 	content: 'Бизнес';
 }
 
 .wcb-session-dmitry-mayorov:after {
 	border-color: #e74c3c;
-	content: 'Дизайн и разработка';
+	content: 'Дизайн';
 }
 
-.wcb-session-yevhen-kotelnytskyi:after {
-	content: 'Управление проектами';
-}
-
-.wcb-session-aleksandr-stankevic:after {
-	border-color: #b8ae9c;
-	content: 'Администрирование';
+.wcb-speaker-evgeny-karsky:after {
+	border-color: #a9cf54;
+	content: 'Бизнес';
 }
 
 /**
