@@ -1320,6 +1320,7 @@ body.admin-bar #tix {
 	content: 'Производительность';
 }
 
+.wcb-speaker-alexander-urozhaev:after,
 .wcb-speaker-misha-rudrastyh:after {
 	border-color: #7743c7;
 	content: 'eCommerce';
