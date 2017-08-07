@@ -1273,6 +1273,7 @@ body.admin-bar #tix {
 .wcb-session-nikolay-mironov:after,
 .wcb-session-gennady-kovshenin:after,
 .wcb-session-konstantin-kovshenin:after,
+.wcb-session-sergey-biryukov:after,
 .wcb-session-nikolay-korobochkin:after {
 	border-color: #3dceff;
 	content: 'Разработка';
@@ -1306,6 +1307,11 @@ body.admin-bar #tix {
 .wcb-speaker-grigory-zemskov:after {
 	border-color: #8a0917;
 	content: 'Безопасность';
+}
+
+.wcb-speaker-anastasia-ogudina:after {
+	border-color: #d9fad5;
+	content: 'Обучение';
 }
 
 /**

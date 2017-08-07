@@ -62,6 +62,7 @@
 .wcb-session-nikolay-mironov,
 .wcb-session-gennady-kovshenin,
 .wcb-session-konstantin-kovshenin,
+.wcb-session-sergey-biryukov,
 .wcb-session-nikolay-korobochkin {
 	&:after {
 		border-color: #3dceff;
@@ -109,5 +110,12 @@
 	&:after {
 		border-color: #8a0917;
 		content: 'Безопасность';
+	}
+}
+
+.wcb-speaker-anastasia-ogudina {
+	&:after {
+		border-color: #D9FAD5;
+		content: 'Обучение';
 	}
 }
