@@ -105,7 +105,6 @@
 	}
 }
 
-
 .wcb-speaker-grigory-zemskov {
 	&:after {
 		border-color: #8a0917;
@@ -115,7 +114,21 @@
 
 .wcb-speaker-anastasia-ogudina {
 	&:after {
-		border-color: #D9FAD5;
+		border-color: #d9fad5;
 		content: 'Обучение';
+	}
+}
+
+.wcb-speaker-anna-ladoshkina {
+	&:after {
+		border-color: #db9e36;
+		content: 'Производительность';
+	}
+}
+
+.wcb-speaker-misha-rudrastyh {
+	&:after {
+		border-color: #89725b;
+		content: 'eCommerce';
 	}
 }

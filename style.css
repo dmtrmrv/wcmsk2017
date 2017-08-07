@@ -1314,6 +1314,16 @@ body.admin-bar #tix {
 	content: 'Обучение';
 }
 
+.wcb-speaker-anna-ladoshkina:after {
+	border-color: #db9e36;
+	content: 'Производительность';
+}
+
+.wcb-speaker-misha-rudrastyh:after {
+	border-color: #89725b;
+	content: 'eCommerce';
+}
+
 /**
  * Templates
  */
