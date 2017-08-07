@@ -1300,7 +1300,8 @@ body.admin-bar #tix {
 	content: 'Дизайн';
 }
 
-.wcb-speaker-sergey-popov:after {
+.wcb-speaker-sergey-popov:after,
+.wcb-session-nikolay-mironov:after {
 	border-color: #b8ae9c;
 	content: 'Фронтенд';
 }
