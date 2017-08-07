@@ -1298,14 +1298,14 @@ body.admin-bar #tix {
 	content: 'Дизайн';
 }
 
-.wcb-speaker-evgeny-karsky:after {
-	border-color: #a9cf54;
-	content: 'Бизнес';
+.wcb-speaker-sergey-popov:after {
+	border-color: #b8ae9c;
+	content: 'Фронтенд';
 }
 
-.wcb-speaker-sergey-popov:after {
-	border-color: #a9cf54;
-	content: 'Бизнес';
+.wcb-speaker-grigory-zemskov:after {
+	border-color: #8a0917;
+	content: 'Безопасность';
 }
 
 /**
