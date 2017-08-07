@@ -1284,7 +1284,8 @@ body.admin-bar #tix {
 	content: 'SEO';
 }
 
-.wcb-session-ruslan-sukhar:after {
+.wcb-session-ruslan-sukhar:after,
+.wcb-speaker-boris-gorelik:after {
 	border-color: #f5ea54;
 	content: 'Контент';
 }
@@ -1320,7 +1321,7 @@ body.admin-bar #tix {
 }
 
 .wcb-speaker-misha-rudrastyh:after {
-	border-color: #89725b;
+	border-color: #7743c7;
 	content: 'eCommerce';
 }
 
