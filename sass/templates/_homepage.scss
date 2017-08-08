@@ -64,7 +64,7 @@
 		@include span( 3 );
 		margin-bottom: 1.5rem;
 	}
-	&:nth-of-type(4n) {
+	&.last {
 		margin-right: 0;
 	}
 }
