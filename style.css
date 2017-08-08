@@ -1442,7 +1442,7 @@ body.admin-bar #tix {
 	margin-bottom: 1.5em;
 }
 
-.wcm-speaker:nth-of-type(3n) {
+.wcm-speaker:nth-of-type(4n) {
 	margin-right: 0;
 }
 
@@ -1725,7 +1725,7 @@ body.admin-bar #tix {
 
 	.wcm-speaker {
 		float: left;
-		width: 31.0043668122%;
+		width: 22.3799126638%;
 		margin-right: 3.4934497817%;
 		margin-bottom: 1.5rem;
 	}
